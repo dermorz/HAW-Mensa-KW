@@ -1,1 +1,1 @@
-window.location = document.links[4].href;
+window.location = document.links[7].href;
