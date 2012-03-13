@@ -1,6 +1,6 @@
 {
   "name": "HAW Mensa Speiseplan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mensa-Speiseplan dieser KW",
   "icons": {
     "128": "icon.png"
@@ -11,7 +11,8 @@
   "content_scripts": [
     {
       "matches": ["http://speiseplan.studierendenwerk-hamburg.de/index.php/de/cafeteria/show/id/530"],
-      "js" : ["contentscript.js"]
+      "js": ["contentscript.js"],
+      "run_at": "document_end"
     }
   ]
 
